@@ -3,3 +3,24 @@
     width: 980px;
     margin:0px auto ;
 }
+nav{
+    background-color: coral;
+    text-align: right;
+}
+
+nav li{
+    list-style-type:none;
+    display: inline-block;
+
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav li a:hover{
+    background-color: antiquewhite;
+    color: brown;
+    transition:background-color 2s color ease-in-out,color 2s ,;
+}
