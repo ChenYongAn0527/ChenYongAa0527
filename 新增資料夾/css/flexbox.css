@@ -1,0 +1,66 @@
+body,ul{
+    margin: 0px;
+}
+nav{
+    background-color: pink;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: cadetblue;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: cornsilk;
+    color: brown;
+    transition: background-color 1s linear,color 1s ease-in ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(247, 185, 195,80%);
+}
+.title{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#photolist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+#photolist li{
+    list-style-type: none;
+    margin: 10px;
+}
+#photolist img{
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px gray;
+}
+#photolist .emptyitem{
+    width: 200px;
+}
+.gotop{
+    font-size: 60px;
+    color: blue;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
